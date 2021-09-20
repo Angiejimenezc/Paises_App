@@ -15,7 +15,7 @@ import { PaisService } from '../../services/pais.service';
   ],
 })
 export class PorRegionComponent {
-  regiones: string[] = ['africa', 'america', 'asia', 'europe', 'oceania'];
+  regiones: string[] = ['africa', 'americas', 'asia', 'europe', 'oceania'];
   regionActiva: string = '';
   paises: Country[] = [];
 
